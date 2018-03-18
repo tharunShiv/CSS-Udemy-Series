@@ -1,0 +1,13 @@
+/*Style for index3.html*/
+#body {
+  margin-right: 300px;
+}
+
+body{
+  /* background-image:url('../images/pole.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-attachment: fixed; */
+
+  background:url('../images/pole.png') no-repeat right top;
+}

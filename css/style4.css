@@ -1,0 +1,20 @@
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p {
+  /* border:2px solid aqua; */
+  margin:100px;
+  background-color:#CCC;
+  padding:10px;
+  border-left:4px solid aqua;
+}
