@@ -17,4 +17,5 @@ p {
   background-color:#CCC;
   padding:10px;
   border-left:4px solid aqua;
+  border-radius:100px;
 }
