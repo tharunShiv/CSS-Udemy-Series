@@ -1,9 +1,66 @@
 body {
-  background-color: rgba(0, 0, 0, );
-  color: white;
+  background-color: #89C4F4;
+  color: black;
   font-size: 30px;
+  text-align:center;
+  font-family: fantasy;
 }
 
 p {
   color: white;
+}
+
+
+.linkD{
+  font-size:50px;
+}
+
+a:link {
+  color:red;
+  //text-decoration:underline;
+  background-color: yellow;
+  padding: 14px 25px;
+  border:2px solid green;
+}
+
+a:visited{
+  color:green;
+}
+
+a:hover{
+  color:dodgerblue;
+  text-decoration:none;
+}
+
+a:active{
+  color: black;
+}
+
+
+#img1{
+  //display:block;
+  display:inline-block;
+}
+
+#img2{
+  //display:none;
+  //visibility:hidden;
+}
+
+.demo {
+  /* position:relative;
+  left: 100px;
+  top:200px; */
+  /* position:fixed;
+  bottom: 0;
+  right: 0; */
+  position:sticky;
+  top: 0;
+}
+
+.demo1 {
+  /* position:absolute;
+  top: 80px;
+  right:0; */
+
 }
