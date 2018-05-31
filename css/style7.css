@@ -1,0 +1,12 @@
+body{
+  background-color: #eee;
+  text-align: center;
+}
+
+img {
+  float:left;
+}
+
+#clearit {
+  clear:left;
+}
