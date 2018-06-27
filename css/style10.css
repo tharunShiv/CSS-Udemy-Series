@@ -1,0 +1,36 @@
+html,body {
+  margin:0;
+  width:100%;
+}
+
+body {
+  background-color: dodgerBlue;
+  font-size: 1.5em;
+  color:white;
+  text-align: center;
+}
+
+h3 {
+  color:black;
+}
+
+p {
+  padding:10px;
+}
+
+/* p::first-line {
+  color:black;
+} */
+
+/* p::first-letter {
+  font-size:xx-large;
+  color:black;
+} */
+
+/* p::before {
+  content:url(/images/pole.png);
+} */
+
+/* p::after {
+  content:url(/images/pole.png);
+} */

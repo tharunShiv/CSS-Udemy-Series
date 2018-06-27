@@ -1,0 +1,37 @@
+html,body {
+  margin:0;
+  width:100%;
+}
+
+body {
+  background-color: dodgerBlue;
+  font-size: 1.5em;
+  color:white;
+  text-align: center;
+}
+
+h3 {
+  color:black;
+}
+/* descendant selectors  (space)*/
+/* div p {
+  color:black;
+} */
+
+
+/* child selector (>)*/
+/* div > p {
+  color:black;
+} */
+
+
+/* Adjacent sibling selector (+)*/
+/* div + p {
+  color:black;
+} */
+
+
+/* General sibling selector (~)*/
+div ~ p {
+  color:black;
+}
