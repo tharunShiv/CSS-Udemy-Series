@@ -1,0 +1,32 @@
+body {
+  background-color: dodgerblue;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 10px 2px grey;
+}
+
+p {
+  border: 1px solid white;
+  color: white;
+  font-size: 23px;
+  padding: 15px;
+  width: 400px;
+  margin: auto;
+  /* text-align: justify; */
+  text-indent: 100px;
+  letter-spacing: 4px;
+  line-height: 2;
+  direction: rtl;
+  word-spacing: 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
