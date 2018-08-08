@@ -1,0 +1,28 @@
+html {
+  font-size: 32px;
+}
+
+body {
+  background-color: dodgerblue;
+  color:white;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+h1 {
+
+}
+
+p {
+  /* font-size:32px; */
+  font-size: 4vw;
+  margin:20px;
+  font-family: Montserrat, "Times New Roman", Courier;
+  font-style:oblique;
+}
+
+img {
+  /* margin:50px; */
+  width:100vw;
+}

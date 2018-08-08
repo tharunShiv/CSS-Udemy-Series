@@ -1,0 +1,26 @@
+.box {
+  width:100;
+  padding:100px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  background-color: dodgerblue;
+  padding:20px;
+
+}
+
+
+a:hover {
+  color:dodgerblue;
+  background-color: white;
+}
+
+p:first-child {
+  /* font-size: 40px; */
+}
+
+p:nth-child(3n) {
+  font-size: 30px;
+}

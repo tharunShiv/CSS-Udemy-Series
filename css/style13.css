@@ -1,0 +1,17 @@
+html {
+  font-size: 30px;
+}
+
+body {
+  background-color: dodgerblue;
+  color:white;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+p {
+  width:70%;
+  text-align:justify;
+  float:none;
+}

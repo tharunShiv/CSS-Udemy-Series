@@ -1,0 +1,52 @@
+@keyframes demoAnimation {
+  0% {
+    background-color: green;
+    left:0px;
+    top:0;
+  }
+  25% {
+    background-color: yellow;
+    left:400px;
+    top:0;
+  }
+  50% {
+    background-color: red;
+    left:400px;
+    top:400px;
+  }
+  75% {
+    background-color: red;
+    left:0px;
+    top:400px;
+  }
+  100% {
+    background-color: blue;
+    left:0px;
+    top:0px;
+  }
+}
+
+body {
+  background-color: dodgerblue;
+  color:white;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  width:200px;
+  height:200px;
+  position:relative;
+  /* animation-name: demoAnimation;
+  animation-duration:1s;
+
+  animation-delay: 5s;
+
+  animation-iteration-count: 2;
+  animation-direction:normal;
+  animation-timing-function: linear;
+  animation-fill-mode: both; */
+
+  animation: demoAnimation 5s linear 2s 3 alternate;
+
+}

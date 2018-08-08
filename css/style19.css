@@ -1,0 +1,29 @@
+body {
+  background-color: dodgerblue;
+  text-align: center;
+}
+
+.outer-box {
+  position:relative;
+  height: 400px;
+  width:400px;
+  border:2px solid black;
+  margin:auto;
+  background-color: black;
+  perspective:50px;
+  perspective-origin: bottom;
+
+}
+
+.box {
+  position:absolute;
+  background-color: white;
+  width:400px;
+  height:400px;
+  /* transition:transform 4s; */
+  /* transform:rotateY(30deg); */
+  /* transform:rotateZ(150deg); */
+  transition: transform 5s;
+  transform-style: preserve-3d;
+  transform:rotateX(45deg);
+}

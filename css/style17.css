@@ -1,0 +1,12 @@
+body {
+  height:100%;
+  background: linear-gradient(to right, red, yellow);
+}
+
+div {
+  width:100%;
+  height:400px;
+  /* background: linear-gradient(30deg, blue, red); */
+  /* background:radial-gradient(red 10%, blue 30%, yellow 60%); */
+  background: radial-gradient(circle, red, blue, yellow);
+}

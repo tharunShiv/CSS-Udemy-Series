@@ -1,0 +1,18 @@
+body {
+  background-color: dodgerblue;
+
+}
+
+.box {
+  background-color: white;
+  width:200px;
+  height:200px;
+  transition:width 6s, background-color 6s;
+  transition-timing-function: linear;
+  transition-delay:2s;
+}
+
+.box:hover {
+  width:100%;
+  background-color: yellow;
+}

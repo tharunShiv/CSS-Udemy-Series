@@ -1,0 +1,32 @@
+
+body {
+  background-color: dodgerblue;
+
+}
+
+.box {
+  background-color: white;
+  width:200px;
+  height:200px;
+  float:left;
+  margin-left: 100px;
+  transition:transform 3s;
+  /* transform:skew(45deg, 45deg); */
+  /* transform:matrix(1, -0.5, -0.5, 1, 0, 0); */
+}
+
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+
+/* .box1 {
+  background-color: white;
+  width:200px;
+  height:200px;
+  margin-left:350px;
+  transition:transform 3s;
+  /* transform:skew(-45deg, -45deg); */
+} */
+
+.box:hover {
+  /* transform:scale(0.5, 0.5) */
+
+}
