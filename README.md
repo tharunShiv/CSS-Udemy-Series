@@ -2,7 +2,7 @@
 Repository of the Udemy course by Tharun Shiv - Being A Pro
 
 # CSS Web Development Series
-Channel:
+YouTube Channel:
     http://bit.ly/beingapro
 
 HTML Course for free - Udemy:
