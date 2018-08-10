@@ -1,0 +1,289 @@
+body, html {
+  height:100%;
+  font-family: Montserrat;
+}
+* {
+  margin:0;
+  padding:0;
+}
+.banner {
+  background: url("../banner.jpg") no-repeat;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:1;
+  z-index:-1;
+}
+.container {
+  width:80%;
+  margin:auto;
+}
+
+
+.content {
+  overflow: visible;
+  position: relative;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../banner.jpg');
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+header {
+  width:100%;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.8) 0%, rgba(252,70,107,0.8) 100%);
+  padding:15px;
+  border-bottom:2px solid dodgerblue;
+  border-radius:10px;
+  box-shadow:2px 2px 5px #333;
+}
+
+#site-name{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1.6em;
+  font-weight: bolder;
+  color:white;
+}
+
+nav {
+  display:inline-block;
+  float:right;
+  z-index:1;
+
+}
+
+nav li {
+  display:inline-block;
+  list-style-type: none;
+  padding:0px 6px;
+  margin-top: 11px;
+}
+
+nav a{
+  color:white;
+  padding:10px;
+  border-radius: 7px;
+  box-shadow:2px 2px 5px #333;
+  margin:3px;
+}
+
+nav a:hover {
+  box-shadow:0px 0px 0px #333;
+  border:1px solid #CCC;
+
+}
+
+.active {
+  border-bottom:2px solid #FFF;
+  box-shadow:none;
+  border:1px solid #CCC;
+}
+
+.side-hover {
+  width:40%;
+  position:relative;
+  top:20%;
+  left:10%;
+  color:white;
+  font-size: 30px;
+  z-index:1;
+  padding:20px;
+  background:radial-gradient(circle, rgba(63,94,251,0.4) 0%, rgba(252,70,107,0.4) 100%);
+  border-radius: 20px;
+  border-left:2px solid pink;
+  border-bottom:2px solid pink;
+}
+
+.drag {
+  background: url("../drag.jpg") no-repeat;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:1;
+  z-index:-1;
+}
+
+.contact {
+  z-index:1;
+  padding:30px;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,0.8) 0%, rgba(118,252,70,0.8) 100%);
+  width:30%;
+  border-radius:15px;
+  border-right:2px solid pink;
+  border-bottom:2px solid pink;
+  position:relative;
+  top: 20%;
+  left: 60%;
+  box-shadow:3px 3px 9px green;
+}
+
+.blog-wrapper {
+  width:75%;
+  max-width:500px;
+  /* height:600px; */
+  margin:20px auto;
+  background-color: #EEE;
+  padding:20px;
+  box-shadow: 3px 3px 9px black;
+}
+
+.blog-wrapper img {
+  width:100%;
+
+  overflow:hidden;
+}
+
+.blog-wrapper h2 {
+  text-align: center;
+  margin:10px;
+}
+
+.blog-wrapper p {
+  margin:10px;
+  font-size: 0.9em;
+  height:100%;
+}
+#contact-header {
+  color:white;
+  padding:10px;
+}
+
+#contact-desc {
+  color:white;
+  padding:10px;
+}
+
+#name, #email, #submit, textarea {
+  padding:10px;
+  margin:5px;
+  border-radius: 5px;
+}
+
+#name, #email, textarea {
+  width:80%;
+  border:none;
+  border:1px solid rgba(252,70,107,0.8);
+}
+
+#submit {
+  padding:15px;
+  background-color: white;
+  color:red;
+  border:4px solid rgba(252,70,107,1);
+  font-weight: bolder;
+}
+
+#submit:hover {
+  background:radial-gradient(circle, rgba(63,94,251,0.8) 0%, rgba(252,70,107,0.8) 100%);
+  color:white;
+  border:4px solid white;
+  cursor: pointer;
+}
+
+#name:focus, #email:focus {
+  border:none;
+  border-bottom:3px solid rgba(252,70,107,0.8);
+  border-right:3px solid rgba(252,70,107,0.8);
+  border-radius:10px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity:0;
+    transform:translateX(-60px);
+  }
+  to {
+    opacity:1;
+  }
+}
+.side-hover p {
+  animation-name: fade-in;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@media screen and (max-width: 930px ) {
+  .contact {
+      left:30%;
+      width:40%;
+  }
+  .side-hover {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:710px) {
+  .contact {
+      left:17%;
+      width:60%;
+  }
+  .container {
+    width:100%;
+  }
+  header {
+    height:100px;
+    width:auto;
+  }
+  #site-name {
+    width:100%;
+    text-align: center;
+
+  }
+  nav {
+    width:100%;
+    text-align: center;
+  }
+  nav ul {
+    padding:0;
+    margin:15px;
+  }
+  .side-hover {
+      font-size: 20px;
+      padding:30px;
+  }
+}
+
+
+@media screen and (max-width:474px) {
+  .banner {
+    background-position: left;
+
+  }
+  .drag {
+    background-position: right;
+  }
+  .contact {
+      font-size:12px;
+      position: sticky;
+      margin:auto;
+
+      width:70%;
+
+  }
+  .side-hover {
+    position: static;
+    margin:auto;
+    margin-top:20%;
+    width:70%;
+  }
+}
