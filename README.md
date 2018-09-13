@@ -8,4 +8,7 @@ YouTube Channel:
 HTML Course for free - Udemy:
     https://udemy.com/web-dev-html
 
+CSS Course with Coupon Code:
+    https://udemy.com/web-dev-css/?couponCode=CSS_DISCOUNT
+
 ## Thank you for your support!
